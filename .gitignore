@@ -1,0 +1,18 @@
+# Entornos virtuales
+venv/
+.venv/
+
+# Datos y descargas crudas
+data/
+drive-download-*/
+
+# Resultados pesados
+results/
+
+# Código deprecado
+old code/
+
+# Metadatos de Windows y cachés
+*Zone.Identifier
+__pycache__/
+*.pyc
