@@ -16,3 +16,20 @@ La arquitectura implementa un **Autonomous Allocation Mechanism (AAM)** bajo el 
    ```bash
    git clone [https://github.com/Bl1ndcat86/PhD-AAM-GMD.git](https://github.com/Bl1ndcat86/PhD-AAM-GMD.git)
    cd PhD-AAM-GMD
+   
+2. Crear el entorno virtual e instalar dependencias:
+python -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+4. Ejecutar las simulaciones
+#Ejemplo de ejecución del batch transaccional
+python xxx_BATCH.py
+
+## Estructura Principal del Repositorio
+- /precheck/: Lógica de los invariantes contables y validación de expresiones regulares legales.
+- /motors/ y /evaluation/: Lógica central del orquestador AAM y algoritmos de cálculo de la matriz de Pareto.
+- /figures/: Scripts generadores de los gráficos y diagramas en formato APA 7 para el documento de tesis.
+
+## Licencia y Citación
+Este código se distribuye con fines de auditoría académica. Si utilizas esta arquitectura para replicación, por favor cita el identificador DOI adjunto en la cabecera.
